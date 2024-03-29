@@ -60,6 +60,6 @@ public class Funcionario extends Colaborador {
         super.entrada();
         System.out.println("Função :");
         setFuncao(ent.nextLine());
-        ent.close();
+        //ent.close();
     }
 }

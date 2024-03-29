@@ -61,6 +61,6 @@ public class Professor extends Colaborador {
         super.entrada();
         System.out.println("Titulação :");
         setTitulacao(ent.nextLine());
-        ent.close();
+        //ent.close();
     }
 }

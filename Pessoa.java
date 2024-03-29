@@ -100,6 +100,6 @@ public class Pessoa {
         setCelular(ent.nextLine());
         System.out.println("Idade :");
         setIdade(Integer.parseInt(ent.nextLine()));
-        ent.close();
+        //ent.close();
     }
 }

@@ -76,6 +76,6 @@ public class Colaborador extends Pessoa {
         setCodigoCarreira(Integer.parseInt(ent.nextLine()));
         System.out.println("Salário :");
         setSalario(Double.parseDouble(ent.nextLine()));
-        ent.close();
+        //ent.close();
     }
 }
